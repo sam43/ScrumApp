@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-
 struct ScrumView: View {
     let scrums: [DailyScrum]
     
