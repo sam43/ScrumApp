@@ -1,5 +1,5 @@
-# Using Stacks to Arrange Views
+# Scrum App [Beginner iOS/iPad project for learning]
 
-## Completed Project
+## Under construction Project
 
 Explore the completed project for [Using Stacks to Arrange Views](https://developer.apple.com/tutorials/app-dev-training/using-stacks-to-arrange-views).
