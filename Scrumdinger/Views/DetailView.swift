@@ -16,7 +16,7 @@ struct DetailView: View {
                     Label("Meeting from \(scrum.title)", systemImage: "timer")
                         .font(.headline)
                         .foregroundColor(.accentColor)
-                        .background(scrum.theme.mainColor)
+//                        .background(scrum.theme.mainColor)
                 }
                 
                 HStack {
