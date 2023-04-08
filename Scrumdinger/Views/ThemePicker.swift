@@ -14,8 +14,15 @@ struct ThemePicker: View {
         Picker("Theme", selection: $selection) {
             ForEach(Theme.allCases) { theme in
                 ThemeView(theme: theme)
-                    .foregroundColor(theme.mainColor)
                     .tag(theme)
+//                HStack {
+//                    Label(theme.name, systemImage: "gear")
+//                        .background(Color.red)
+//                        .foregroundColor(Color.blue)
+//                    Spacer()
+//                        .frame(width: 30, height: 30)
+//                        .background(Color.black)
+//                }
             }
         }
     }

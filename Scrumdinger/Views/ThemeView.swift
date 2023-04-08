@@ -16,11 +16,8 @@ struct ThemeView: View {
                 .fill(Color.white)
             Label(theme.name, systemImage: "paintpalette")
                 .padding(4)
-                .foregroundColor(.accentColor)
-                .background(theme.mainColor)
-                .cornerRadius(4)
         }
-        .foregroundColor(theme.accentColor)
+        .foregroundColor(theme.mainColor)
         .fixedSize(horizontal: false, vertical: true)
     }
 }
