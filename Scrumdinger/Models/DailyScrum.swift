@@ -26,18 +26,18 @@ struct DailyScrum: Identifiable {
 extension DailyScrum {
     static let sampleData: [DailyScrum] =
     [
-        DailyScrum(title: "Design", attendees: ["Cathy", "Daisy", "Simon", "Jonathan"], lengthOfTime: 10, theme: .bubblegum),
+        DailyScrum(title: "Design", attendees: ["Cathy", "Daisy", "Simon", "Jonathan"], lengthOfTime: 1, theme: .bubblegum),
         DailyScrum(title: "Android App Dev", attendees: ["Katie", "Gray", "Euna", "Luis", "Darla"], lengthOfTime: 5, theme: .buttercup),
         DailyScrum(title: "Web Dev", attendees: ["Daisy", "Simon", "Jonathan", "Aga", "Chad", "Jenn", "Sarah"], lengthOfTime: 5, theme: .poppy),
         DailyScrum(title: "Manager", attendees: ["Chella", "Chris", "Sarah"], lengthOfTime: 10, theme: .bubblegum),
-        DailyScrum(title: "iOS App Dev", attendees: ["Lindsey", "Katie", "Gray", "Euna", "Luis", "Darla"], lengthOfTime: 5, theme: .buttercup),
-        DailyScrum(title: "SQA Lead", attendees: ["Cathy", "Daisy", "Simon", "Jonathan"], lengthOfTime: 10, theme: .periwinkle),
-        DailyScrum(title: "UX Designer", attendees: ["Chella", "Chris", "Christina", "Eden", "Karla", "Lindsey"], lengthOfTime: 20, theme: .seafoam),
+        DailyScrum(title: "iOS App Dev", attendees: ["Lindsey", "Katie", "Gray", "Euna", "Luis", "Darla"], lengthOfTime: 1, theme: .buttercup),
+        DailyScrum(title: "SQA Lead", attendees: ["Cathy", "Daisy", "Simon", "Jonathan"], lengthOfTime: 3, theme: .periwinkle),
+        DailyScrum(title: "UX Designer", attendees: ["Chella", "Chris", "Christina", "Eden", "Karla", "Lindsey"], lengthOfTime: 2, theme: .seafoam),
         DailyScrum(title: "React App Dev", attendees: ["Katie", "Gray", "Euna", "Luis", "Darla"], lengthOfTime: 5, theme: .lavender),
-        DailyScrum(title: "Backend Dev", attendees: ["Christina", "Eden", "Lindsey", "Aga", "Chad", "Jenn"], lengthOfTime: 15, theme: .oxblood),
-        DailyScrum(title: "Vice President", attendees: ["Cathy", "Daisy", "Simon", "Jonathan"], lengthOfTime: 15, theme: .orange),
+        DailyScrum(title: "Backend Dev", attendees: ["Christina", "Eden", "Lindsey", "Aga", "Chad", "Jenn"], lengthOfTime: 1, theme: .oxblood),
+        DailyScrum(title: "Vice President", attendees: ["Cathy", "Daisy", "Simon", "Jonathan"], lengthOfTime: 4, theme: .orange),
         DailyScrum(title: "Software Architect", attendees: ["Katie", "Gray", "Euna", "Luis", "Darla"], lengthOfTime: 5, theme: .navy),
-        DailyScrum(title: "Dev Ops", attendees: ["Chella", "Chris", "Christina", "Eden", "Chad", "Jenn", "Sarah"], lengthOfTime: 25, theme: .magenta)
+        DailyScrum(title: "Dev Ops", attendees: ["Chella", "Chris", "Christina", "Eden", "Chad", "Jenn", "Sarah"], lengthOfTime: 3, theme: .magenta)
     ]
 }
 

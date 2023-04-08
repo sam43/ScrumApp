@@ -16,7 +16,7 @@ struct DetailEditView: View {
             Section(header: Text("Meeting Infomation")) {
                 TextField("Title", text: $data.title)
                 HStack {
-                    Slider(value: $data.lengthOfTime, in: 5...30, step: 1) {
+                    Slider(value: $data.lengthOfTime, in: 1...10, step: 1) {
                         Text("Length")
                     }
                     .accessibilityValue("\(Int(data.lengthOfTime)) minutes")
